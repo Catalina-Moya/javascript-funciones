@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.titulo-uno,
+.titulo-dos,
+.titulo-tres,
+h4 {
+    text-align: center;
+    margin: 20px;
+}
+
+.container-uno,
+.container-dos,
+.container-tres,
+.container-cuatro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    text-align: center;
+}
+
+#ele1 {
+    background-color: rgb(0, 255, 0);
+}
+
+#primercolor {
+    background-color: rgb(0, 115, 255);
+}
+
+#segundocolor {
+    background-color: rgb(255, 0, 21);
+}
+
+#tercercolor {
+    background-color: rgb(9, 255, 0);
+}
+
+#cuartocolor {
+    background-color: rgb(251, 255, 0);
+}
+
+#key {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: black 3px solid;
+}
